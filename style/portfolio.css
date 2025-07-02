@@ -44,7 +44,7 @@
   font-size: 1.5em;
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
-  display: none;
+  /*display: none;*/
 }
 
 .lien-conteneur-photo:hover .photo-hover {
