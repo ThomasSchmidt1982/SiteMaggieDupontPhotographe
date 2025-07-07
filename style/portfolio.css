@@ -50,3 +50,19 @@
 .lien-conteneur-photo:hover .photo-hover {
   display: flex;
 }
+
+@media screen and (max-width: 996px) {
+
+  .grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+  }
+
+  .grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+  }
+
+}
