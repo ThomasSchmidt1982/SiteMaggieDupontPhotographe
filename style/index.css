@@ -45,6 +45,14 @@
   padding-right: 80px;
 }
 
+.accueil-introduction img {
+  transform: skew(-0.02turn, 6deg);
+  filter: drop-shadow(10px 10px 4px #2a4c8d);
+  border: solid 2px white;
+  border-radius: 3px;
+}
+
+
 .section-contact h2 {
   color: #a5b4fc;
   text-align: center;
@@ -112,7 +120,7 @@ input[type='submit'] {
   .accueil-introduction img {
     order: 1;
     margin-bottom: 20px;
-    width: 100%;
+    width: 50%;
   }
 
   .accueil-photos {
